@@ -1,16 +1,9 @@
 # case_3_2_minimum
 
-A new Flutter project.
+Минимально необходимое задание:
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ознакомиться с материалами раздела 3.2
+Ознакомиться со структурой данных о публикации, возвращаемой сервером в ответ на запрос https://jsonplaceholder.typicode.com/posts/1
+Создать класс Post, повторяющий структуру ответа сервера. Реализовать в нём конструктор и метод конвертации из JSON (см. класс Album в примере)
+Реализовать функцию загрузки и конвертации данных в объект (см. fetchAlbum() в примере)
+Создать виджет с состоянием. В методе initState вызывать загрузку данных. В методе build реализовать отображение заголовка и тела публикации с помощью FutureBuilder
